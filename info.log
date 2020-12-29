@@ -1,0 +1,9 @@
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /v1/menus                 --> eatwhat/controller.(*Menu).GetMenuList-fm (3 handlers)
+[GIN-debug] POST   /v1/menu                  --> eatwhat/controller.(*Menu).AddMenu-fm (3 handlers)
+[GIN-debug] PUT    /v1/menu/:id/name/:name   --> eatwhat/controller.(*Menu).UpdateMenu-fm (3 handlers)
+[GIN-debug] DELETE /v1/menu/:id              --> eatwhat/controller.(*Menu).DeleteMenu-fm (3 handlers)
+::1 - [Thu, 17 Dec 2020 15:21:54 CST] "PUT /v1/menu/4/name/水煮鱼肉 HTTP/1.1 200 1.27297613s "PostmanRuntime/7.26.8" "
